@@ -76,7 +76,7 @@ function Home() {
 
     if(input === "") return;
 
-    navigate(`/detail/${input}`)
+    navigate(`/details/${input}`)
   }
 
   function handleGetMore() {
